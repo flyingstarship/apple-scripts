@@ -2,7 +2,7 @@
 The basic idea here is to run some actions for the folder opened in front Finder window or the files/folders selected in it.
 
 * "Archive content" archives selected content from the current folder, if nothing is selected, all the content in the current folder is going to be archived; it creates .zip archive without Mac OS specific items like "__MACOSX" and files with names starting from "."
-* "Open as text" opens selected files in CotEditor; feel free to change the editor in the .scpt file
+* "Open as text" opens selected files in CotEditor; make sure that CotEditor and [cot command-line tool](https://coteditor.com/cot) are installed. Feel free to change the editor in the .scpt file
 * "New file" creates a new file in the current folder, it also writes "." into the file so file size is not zero; feel free to remove this code from .scpt file if you do not want this behaviour
 * "Select smth" selects some file or folder in the current folder
 * "Terminal here" opens terminal in the current folder
